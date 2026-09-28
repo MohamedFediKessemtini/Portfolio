@@ -808,7 +808,7 @@ img {
 
 /* Début du bloc : .edu-card.accent */
 .edu-card.accent {
-  background:#dfe8be;
+  background:var(--paper);
 }
 /* Fin du bloc : .edu-card.accent */
 
