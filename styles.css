@@ -1182,3 +1182,23 @@ html {
 }
 /* Fin du bloc : @media (max-width:700px) */
 
+/* Début du bloc : @media (min-width:901px) */
+@media (min-width:901px) {
+  /* Début du bloc : .hero */
+  .hero {
+    grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);
+  }
+  /* Fin du bloc : .hero */
+}
+/* Fin du bloc : @media (min-width:901px) */
+
+/* Début du bloc : @media (max-width:900px) */
+@media (max-width:900px) {
+  /* Début du bloc : .hero */
+  .hero {
+    grid-template-columns:1fr;
+  }
+  /* Fin du bloc : .hero */
+}
+/* Fin du bloc : @media (max-width:900px) */
+
